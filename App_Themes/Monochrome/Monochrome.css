@@ -163,6 +163,17 @@ aside#Sidebar
   float: left;
 }
 
+ aside#Sidebar a
+  {
+    /*
+    The header a is a link nested in header. It provides a link back to the homepage.
+    The size of the link is the same as the header, so the entire header is clickable.
+  */
+    width: 142px;
+    height: 500px;
+    display: block;
+  }
+
 footer
 {
   /*

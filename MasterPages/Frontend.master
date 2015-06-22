@@ -25,7 +25,7 @@
         </asp:ContentPlaceHolder>
       </section>
       <aside id="Sidebar">
-          Sidebar goes here
+          <a href="/"></a>
       </aside>
       <footer>
       </footer>
