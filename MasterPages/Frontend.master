@@ -6,16 +6,14 @@
   <asp:ContentPlaceHolder ID="head" runat="server">
   </asp:ContentPlaceHolder>
     <link href="../App_Themes/Monochrome/Monochrome.css" rel="stylesheet" />
-  <script src="/Scripts/modernizr-2.7.1.js"></script>
 </head>
 <body>
   <form id="form1" runat="server">
     <div id="PageWrapper">
       <header><a href="/"></a></header>
       <nav>
-        <asp:Menu ID="Menu1" runat="server" CssClass="MainMenu" Orientation="Horizontal" DataSourceID="SiteMapDataSource1" StaticEnableDefaultPopOutImage="False">
-        </asp:Menu>
-        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+          <asp:Menu ID="Menu1" runat="server" CssClass="MainMenu" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" StaticEnableDefaultPopOutImage="False"></asp:Menu>
+          <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
       </nav>
       <section id="MainContent">
         <asp:SiteMapPath ID="SiteMapPath1" runat="server"></asp:SiteMapPath>
